@@ -16,7 +16,7 @@ class RpcServer(object):
         self.channel = self.connection.channel()
         self.channel.queue_declare(queue='my_rpc_queue')
         self.channel.basic_qos(prefetch_count=1)
-        self.channel.basic_consume(on_message_callback=self.on_request, queue='vrn_rpc_queue')
+        self.channel.basic_consume(on_message_callback=self.on_request, queue='my_rpc_queue')
         print(" [x] Awaiting RPC requests")
         self.channel.start_consuming()
 
