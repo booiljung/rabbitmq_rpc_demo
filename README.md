@@ -32,3 +32,5 @@ pred = client(img)
 `RpcClient` 개체를 생성하고 이미지를 전달하고 처리한 결과를 받습니다.
 
 RabbitMQ로 주고 받을 수 있는 데이터는 바이트배열이나 문자열입니다. 전송하기 전에 반드시 포맷을 변경해야 함에 주의 합니다.
+
+별도의 블로그 글은 [이곳](https://booiljung.github.io/technical_articles/machine_learning/rabbitmq_demo_for_machine_learning_inference.html?fbclid=IwAR237Sor0DkyLh7IRajg4YV_3TawzGDkR30c77UsXRB8ctCtENsIJ8RX2Fk)에서 확인할 수 있습니다.
